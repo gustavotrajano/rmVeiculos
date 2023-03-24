@@ -5,12 +5,12 @@
 
 html, body {
     height: 100%;
+    font-family:'Oswald', sans-serif;
 }
 
 header {
     padding: 20px 2% 30px 2%;
     height: 80px;
-    font-family:'Oswald', sans-serif;
 }
 
 .container{
@@ -37,7 +37,7 @@ header nav.menu-site-desktop ul{
     list-style-type: none;
 }
 
-header nav.menu-site-desktop li a{
+header nav.menu-site-desktop ul li a{
     color: black;
     font-size: 22px;
     font-weight: 500;
@@ -99,4 +99,33 @@ header nav.menu-site-desktop li a{
     filter: saturate(0%);
     background-image: url('../images/box-text.png');
     left: -45px;
+}
+
+.line-title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+	top:670px;
+}
+
+.line1{
+	position: absolute;
+    margin: calc(31px/2);
+	height: 2px;
+	width: 100%;
+	background:black;
+}
+
+.line-title h2{
+	position: relative;
+	background: white;
+	display: inline-block;
+	text-align: center;
+	font-size: 27px;
+	padding:0 20px;
+	font-style: italic;
+	text-transform: uppercase;
 }
